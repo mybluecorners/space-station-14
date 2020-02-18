@@ -1,0 +1,55 @@
+- type: emote
+  id: fart
+  output:
+    - "lets out a cute little 'toot' from their butt."
+    - "farts loudly!"
+    - "lets one rip!"
+    - "farts! It sounds wet and smells like rotten eggs."
+    - "farts robustly!"
+    - "farted! It smells like something died."
+    - "farts like a muppet!"
+    - "defiles the station's air supply."
+    - "farts a ten second long fart."
+    - "groans and moans, farting like the world depended on it."
+    - "breaks wind!"
+    - "expels intestinal gas through the anus."
+    - "release an audible discharge of intestinal gas."
+    - "is a farting motherfucker!!!"
+    - "suffers from flatulence!"
+    - "releases flatus."
+    - "releases methane."
+    - "farts up a storm."
+    - "farts. It smells like Soylent Surprise!"
+    - "farts. It smells like pizza!"
+    - "farts. It smells like George Melons' perfume!"
+    - "farts. It smells like the kitchen!"
+    - "farts. It smells like medbay in here now!"
+    - "farts. It smells like the bridge in here now!"
+    - "farts like a pubby!"
+    - "farts like a goone!"
+    - "sharts! That's just nasty."
+    - "farts delicately."
+    - "farts timidly."
+    - "farts very, very quietly. The stench is OVERPOWERING."
+    - "farts egregiously."
+    - "farts voraciously."
+    - "farts cantankerously."
+    - "fart in they own mouth."
+    - "breaks wind noisily!"
+    - "releases gas with the power of the gods! The very station trembles!!"
+    - "laughs! their breath smells like a fart."
+    - "releases farts, and as such, blob cannot evoulate."
+    - "farts. It might have been the Citizen Kane of farts."
+  soundID: fart
+  effect:
+    - !type:FartEmote
+      gas: 1
+- type: emote
+  id: burp
+  output:
+    - "belches!"
+    - "burps!"
+  soundID: burp
+  effect:
+  - !type:FartEmote
+      gas: 1

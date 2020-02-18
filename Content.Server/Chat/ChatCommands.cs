@@ -1,4 +1,5 @@
 ﻿using Content.Server.Interfaces.Chat;
+using Content.Server.GameObjects.Components.Sound;
 using Robust.Server.Interfaces.Console;
 using Robust.Server.Interfaces.Player;
 using Robust.Shared.Enums;
@@ -46,8 +47,15 @@ namespace Content.Server.Chat
 
             var action = string.Join(" ", args);
 
+            if (player.AttachedEntity.HasComponent(typeof(EmoteComponent)))
+            {
+                action = player.AttachedEntity.GetComponent<EmoteComponent>().PlayEmote(action);
+            }
             chat.EntityMe(player.AttachedEntity, action);
+
+            
         }
+
     }
 
     internal class OOCCommand : IClientCommand
@@ -62,4 +70,5 @@ namespace Content.Server.Chat
             chat.SendOOC(player, string.Join(" ", args));
         }
     }
+
 }

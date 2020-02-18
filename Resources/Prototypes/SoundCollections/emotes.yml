@@ -1,0 +1,14 @@
+- type: sound_collection
+  id: fart
+  files:
+  - /Audio/effects/emotes/fart1.ogg
+  - /Audio/effects/emotes/fart2.ogg
+  - /Audio/effects/emotes/fart3.ogg
+  - /Audio/effects/emotes/fart4.ogg
+  - /Audio/effects/emotes/fart5.ogg
+  - /Audio/effects/emotes/fart6.ogg
+- type: sound_collection
+  id: burp
+  files:
+  - /Audio/effects/emotes/burp.ogg
+  - /Audio/effects/emotes/burp_2.ogg

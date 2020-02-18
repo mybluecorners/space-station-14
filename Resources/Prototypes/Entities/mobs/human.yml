@@ -130,6 +130,8 @@
   - type: FootstepSound
   - type: HumanoidAppearance
   - type: HumanInventoryController
+  - type: Sound
+  - type: EmoteComponent
 
 - type: entity
   save: false
